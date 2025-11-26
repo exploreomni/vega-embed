@@ -1,5 +1,69 @@
 # Changelog
 
+# 7.2.0 (2025-11-26)
+
+
+### Bug Fixes
+
+* add missing interpreter dependency ([#751](https://github.com/vega/vega-embed/issues/751)) ([a97b015](https://github.com/vega/vega-embed/commit/a97b015c27b69b3406757714b390c258c51cefa2))
+* add visible focus state to actions menu for A11y ([#841](https://github.com/vega/vega-embed/issues/841)) ([d71f2b2](https://github.com/vega/vega-embed/commit/d71f2b28947df5124e09bda7785669a98201f52c))
+* allow all themes from vega themes in types ([#1288](https://github.com/vega/vega-embed/issues/1288)) ([cab79d2](https://github.com/vega/vega-embed/commit/cab79d226dd065183b40e809ec277504d32c5955))
+* allow for embedding styles in shadowRoot ([1185c77](https://github.com/vega/vega-embed/commit/1185c77b3c5e067674667ddaa47317428208e855))
+* apply patch before posting ([#1337](https://github.com/vega/vega-embed/issues/1337)) ([2397535](https://github.com/vega/vega-embed/commit/23975350624ba335a16a9bb04d6430aa8b12e990))
+* change overflow scroll to auto ([#593](https://github.com/vega/vega-embed/issues/593)) ([8d5d08d](https://github.com/vega/vega-embed/commit/8d5d08d9c0911e9eef37796ca71473108ac1bae8)), closes [#592](https://github.com/vega/vega-embed/issues/592)
+* correct order of exports ([467fb19](https://github.com/vega/vega-embed/commit/467fb19bfa02638e04ae989a625db08a5baa9dc1))
+* correct repo entry ([7e78bc8](https://github.com/vega/vega-embed/commit/7e78bc8755ca9232f149b49a8c5d2a2980317646))
+* correct types reference ([794b9cc](https://github.com/vega/vega-embed/commit/794b9ccca3fdbd1205685708ce7c4c209233cac5))
+* correct types reference ([9f246c1](https://github.com/vega/vega-embed/commit/9f246c1fe126cc6024977e1dc61035734843bbd0))
+* **docs:** update `padding` type and mention the Yarn version ([#1050](https://github.com/vega/vega-embed/issues/1050)) ([4257289](https://github.com/vega/vega-embed/commit/42572895e6390460df64aaf62185aaa1efd1d9ac))
+* don't allow defaultStyle in usermeta ([#861](https://github.com/vega/vega-embed/issues/861)) ([5428adb](https://github.com/vega/vega-embed/commit/5428adb18244373637ff9f3b60936657559d5103))
+* don't depend on vega util ([2fb7137](https://github.com/vega/vega-embed/commit/2fb713737b9747b63d90ff5e6eb1fe3c1794a369))
+* fix build with semver ([#790](https://github.com/vega/vega-embed/issues/790)) ([99751ea](https://github.com/vega/vega-embed/commit/99751ea0768785c23fb547494af3c3e6a6571a2c))
+* fix examples and build ([892eb20](https://github.com/vega/vega-embed/commit/892eb20540c49fa6c1c0c597c16cdecbb8f5187d))
+* fix issue with broken semver version ([ac5b84c](https://github.com/vega/vega-embed/commit/ac5b84c81d02a0cdbd2a9c40a6ab7c660e6cb15a))
+* handle logLevel correctly ([#1475](https://github.com/vega/vega-embed/issues/1475)) ([6f47dc0](https://github.com/vega/vega-embed/commit/6f47dc0892c118aa8a407d49e2afd6c6f261363e))
+* inline yallist iterator patch ([#800](https://github.com/vega/vega-embed/issues/800)) ([635f5cb](https://github.com/vega/vega-embed/commit/635f5cb8337680c436b36a5e71a93cc1ef4bcf56))
+* output declarations ([b9fedb9](https://github.com/vega/vega-embed/commit/b9fedb9a3f043fe7d143c798eb660f158e99bfa0))
+* position actions correctly when using "container" or "autosize" sizing ([#490](https://github.com/vega/vega-embed/issues/490)) ([050a3f5](https://github.com/vega/vega-embed/commit/050a3f51d7b63e865e4998d973c7a5e71769f37a))
+* re-enable downloads by switching to mousedown handler ([131018a](https://github.com/vega/vega-embed/commit/131018abc5e7b1a3d194b04c05194cec5280908c))
+* set correct wrapper classes when there are autosize signals ([#688](https://github.com/vega/vega-embed/issues/688)) ([641b65e](https://github.com/vega/vega-embed/commit/641b65e1bcbaaf2a2b70c783fc0fe1bdfb825d6e))
+* support loader options in usermeta ([#626](https://github.com/vega/vega-embed/issues/626)) ([8416c4d](https://github.com/vega/vega-embed/commit/8416c4d5fa44fe0752eff364d5c197e6be12c055)), closes [#625](https://github.com/vega/vega-embed/issues/625)
+* switch to click ([#425](https://github.com/vega/vega-embed/issues/425)) ([3d5c5c8](https://github.com/vega/vega-embed/commit/3d5c5c889587a72b76baa691f5571fb7b5643810))
+* try bundledDependencies ([#807](https://github.com/vega/vega-embed/issues/807)) ([a177b2e](https://github.com/vega/vega-embed/commit/a177b2ee50756c62a9b87e83f9550a830643f38a))
+* update peer dep ([a7c1853](https://github.com/vega/vega-embed/commit/a7c185317911c33671defcd136ff61c486b4c692))
+* update style generation script ([#793](https://github.com/vega/vega-embed/issues/793)) ([91ab83f](https://github.com/vega/vega-embed/commit/91ab83fcf6504197ee2e80ce4ad34fcbe477dacc)), closes [#792](https://github.com/vega/vega-embed/issues/792)
+* upgrade deps including themes and tooltips, fixes version issues ([ba8ba18](https://github.com/vega/vega-embed/commit/ba8ba18e1e9229d8a0724b7462437267f6b4c8e8))
+* use auto height on chart-wrapper unless autosize fit set ([#687](https://github.com/vega/vega-embed/issues/687)) ([b77626a](https://github.com/vega/vega-embed/commit/b77626a47855620420f52f540ccc1c0818cf553e)), closes [#584](https://github.com/vega/vega-embed/issues/584)
+* use babel preset config to support es5 ([#689](https://github.com/vega/vega-embed/issues/689)) ([adebdbc](https://github.com/vega/vega-embed/commit/adebdbc29aafa4f32be48072d541d8fcf8bd1075))
+* use correct source for module output ([26286f3](https://github.com/vega/vega-embed/commit/26286f31e4f9650eb26536a2d29413a2d20470de))
+* use embed.js for clearer mapping to what file we are using ([30a8437](https://github.com/vega/vega-embed/commit/30a8437b99676410b9d406754174643454d8fa20))
+* use innerHTML to set style to avoid <br> ([#858](https://github.com/vega/vega-embed/issues/858)) ([cbc1497](https://github.com/vega/vega-embed/commit/cbc14975f01c908560f25ce7e857c73204443596))
+* use npm for postinstall ([#802](https://github.com/vega/vega-embed/issues/802)) ([f5e1a85](https://github.com/vega/vega-embed/commit/f5e1a85a981f867a7a456e77ef0197dd2b5cc355))
+
+
+### Features
+
+* add bindContainer ([#602](https://github.com/vega/vega-embed/issues/602)) ([806803e](https://github.com/vega/vega-embed/commit/806803ea0730358f463a6b1e0d68a87602a52b07))
+* add explicit exports ([#1301](https://github.com/vega/vega-embed/issues/1301)) ([3d1e921](https://github.com/vega/vega-embed/commit/3d1e92118635cd9e47419cd33743b1f73c6887e4))
+* Add new forceActionsMenu embed option ([#1242](https://github.com/vega/vega-embed/issues/1242)) ([fbbcd9e](https://github.com/vega/vega-embed/commit/fbbcd9e96881374c39674c2db586944c08ca71c8))
+* add vega interpreter as dependency and support custom interpreter ([#747](https://github.com/vega/vega-embed/issues/747)) ([cbd54ba](https://github.com/vega/vega-embed/commit/cbd54ba0791b66aa957f81d98556bb4889a13dcc))
+* custom View class and renderer ([#657](https://github.com/vega/vega-embed/issues/657)) ([244717e](https://github.com/vega/vega-embed/commit/244717e87f07f1359a970802a6d73152283ab187))
+* **download:** enable custom file name for downloads ([#157](https://github.com/vega/vega-embed/issues/157)) ([db60e72](https://github.com/vega/vega-embed/commit/db60e72bcaa25964806acbcd793d7caa28128cb6))
+* export version ([#772](https://github.com/vega/vega-embed/issues/772)) ([d522c10](https://github.com/vega/vega-embed/commit/d522c10aad3baedb2573ed3b0a9a83a294ad3774))
+* Expose expression functions ([#935](https://github.com/vega/vega-embed/issues/935)) ([0e9b871](https://github.com/vega/vega-embed/commit/0e9b871613c83b27c06ac1f685cde9285715549b))
+* externalize vega-util, upgrade deps ([e538bcf](https://github.com/vega/vega-embed/commit/e538bcf782e59d3e152b3c29d67062835ef65f6e))
+* pass baseurl through to default tooltip handler ([#1286](https://github.com/vega/vega-embed/issues/1286)) ([e3e703d](https://github.com/vega/vega-embed/commit/e3e703dafe51a5046608a879f10cb834bacb2e45))
+* remove beemo and old IE compatibility ([#1116](https://github.com/vega/vega-embed/issues/1116)) ([c344c90](https://github.com/vega/vega-embed/commit/c344c903d63b28a3f2240b455cfe5374576709b6))
+* remove patch package and update deps ([#1315](https://github.com/vega/vega-embed/issues/1315)) ([37dc579](https://github.com/vega/vega-embed/commit/37dc5791284611d78be5c4b78004331f2fa9ff19))
+* smaller bundle and remove es5 builds since they are not really es5 builds anyway ([#1114](https://github.com/vega/vega-embed/issues/1114)) ([d4133c6](https://github.com/vega/vega-embed/commit/d4133c6500359f23a42d158283381d302d7ecd44))
+* support AST and expression interpreter ([#468](https://github.com/vega/vega-embed/issues/468)) ([b0b0c20](https://github.com/vega/vega-embed/commit/b0b0c2010a8cd35375daeebfe1bb843c3f2005ee))
+* update json-stringify-pretty-compact ([#1365](https://github.com/vega/vega-embed/issues/1365)) ([6e5f5ff](https://github.com/vega/vega-embed/commit/6e5f5ff9c4b335d4c191b0f19810cd8943e86647))
+* update the `scaleFactor` property to allow setting different values ([#1051](https://github.com/vega/vega-embed/issues/1051)) ([35be206](https://github.com/vega/vega-embed/commit/35be20679ba6d4fd6818b3a1ba02ca2dc930f123))
+* update tooltip and themes dependencies ([e1a2ae1](https://github.com/vega/vega-embed/commit/e1a2ae16b2aa9c003f574b96d0859db269d4a50c))
+* update vega tooltip and add update rollup typescript ([2e90bf4](https://github.com/vega/vega-embed/commit/2e90bf4b27424184adf6916bb788629abc52fe07))
+* upgrade vega tooltip ([ba4b400](https://github.com/vega/vega-embed/commit/ba4b4005aaa7cc392e2c6e1c0218a4823d9c252e))
+* use esm version of fast-json-patch ([#1364](https://github.com/vega/vega-embed/issues/1364)) ([1a36845](https://github.com/vega/vega-embed/commit/1a3684553a31681a737f0cca975ceec802e0332a))
+
 # [7.1.0](https://github.com/vega/vega-embed/compare/v7.0.2...v7.1.0) (2025-10-09)
 
 
