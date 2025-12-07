@@ -20,7 +20,7 @@ import {
   logger as VgLogger,
   LoggerInterface as Logger,
 } from '@omni-co/vega';
-import {expressionInterpreter} from '@omni-co/vega-interpreter';
+import {expressionInterpreter} from 'vega-interpreter';
 import * as vegaLiteImport from 'vega-lite';
 import {Config as VlConfig, TopLevelSpec as VlSpec} from 'vega-lite';
 import schemaParser from 'vega-schema-url-parser';
