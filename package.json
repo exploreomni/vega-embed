@@ -1,6 +1,6 @@
 {
   "name": "@omni-co/vega-embed",
-  "version": "7.1.0-fork.2-beta.3",
+  "version": "7.1.0-fork.2-beta.4",
   "upstreamVersion": "7.1.0",
   "description": "Publish Vega visualizations as embedded web components.",
   "keywords": [
