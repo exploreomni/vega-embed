@@ -1,6 +1,6 @@
 {
   "name": "@omni-co/vega-embed",
-  "version": "7.1.0-fork.1",
+  "version": "7.1.0-fork.2",
   "upstreamVersion": "7.1.0",
   "description": "Publish Vega visualizations as embedded web components.",
   "keywords": [
@@ -63,7 +63,7 @@
     "typedoc": "^0.28.7",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.36.0",
-    "@omni-co/vega": "^6.2.0-fork.1",
+    "@omni-co/vega": "^6.2.0-fork.2",
     "vega-lite": "^6.2.0",
     "vitest": "^3.2.4",
     "vitest-canvas-mock": "^0.3.3"
@@ -77,7 +77,7 @@
     "json-stringify-pretty-compact": "^4.0.0",
     "semver": "^7.7.2",
     "tslib": "^2.8.1",
-    "@omni-co/vega-interpreter": "^2.0.0",
+    "vega-interpreter": "^2.0.0",
     "vega-schema-url-parser": "^3.0.2",
     "vega-themes": "3.0.0",
     "vega-tooltip": "1.0.0"
