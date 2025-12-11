@@ -1,8 +1,8 @@
 import * as vega from '@omni-co/vega';
 import {View, Spec as VgSpec, logger} from '@omni-co/vega';
 import {expressionInterpreter} from 'vega-interpreter';
-import * as vl from 'vega-lite';
-import {compile, TopLevelSpec} from 'vega-lite';
+import * as vl from '@omni-co/vega-lite';
+import {compile, TopLevelSpec} from '@omni-co/vega-lite';
 import {expect, test, vi} from 'vitest';
 import embed, {guessMode, Mode} from '../src/embed';
 
