@@ -1,4 +1,4 @@
-import {TopLevelSpec} from 'vega-lite';
+import {TopLevelSpec} from '@omni-co/vega-lite';
 import {expect, test} from 'vitest';
 import container from '../src/container';
 

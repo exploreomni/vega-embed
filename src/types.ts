@@ -1,5 +1,5 @@
 import {Config as VgConfig, Renderers} from '@omni-co/vega';
-import {Config as VlConfig} from 'vega-lite';
+import {Config as VlConfig} from '@omni-co/vega-lite';
 
 export type Mode = 'vega' | 'vega-lite';
 export type Config = VlConfig | VgConfig;

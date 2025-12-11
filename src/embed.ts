@@ -21,8 +21,8 @@ import {
   LoggerInterface as Logger,
 } from '@omni-co/vega';
 import {expressionInterpreter} from 'vega-interpreter';
-import * as vegaLiteImport from 'vega-lite';
-import {Config as VlConfig, TopLevelSpec as VlSpec} from 'vega-lite';
+import * as vegaLiteImport from '@omni-co/vega-lite';
+import {Config as VlConfig, TopLevelSpec as VlSpec} from '@omni-co/vega-lite';
 import schemaParser from 'vega-schema-url-parser';
 import * as themes from 'vega-themes';
 import {Handler, Options as TooltipOptions} from 'vega-tooltip';
@@ -178,7 +178,7 @@ export function guessMode(spec: VisualizationSpec, logger: Logger, providedMode?
 
     const mode = parsed.library as Mode;
 
-    if (!satisfies(VERSION[mode], `^${parsed.version.slice(1)}`)) {
+    if (!satisfies(VERSION[mode], `^${parsed.version.slice(1)}`, {includePrerelease: true})) {
       logger.warn(
         `The input spec uses ${NAMES[mode]} ${parsed.version}, but the current version of ${NAMES[mode]} is v${VERSION[mode]}.`,
       );
@@ -327,7 +327,7 @@ async function _embed(
     if (vgSpec.$schema) {
       const parsed = schemaParser(vgSpec.$schema);
 
-      if (!satisfies(VERSION.vega, `^${parsed.version.slice(1)}`)) {
+      if (!satisfies(VERSION.vega, `^${parsed.version.slice(1)}`, {includePrerelease: true})) {
         logger.warn(`The compiled spec uses Vega ${parsed.version}, but current version is v${VERSION.vega}.`);
       }
     }

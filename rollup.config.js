@@ -26,12 +26,12 @@ const outputs = [
       name: 'vegaEmbed',
       sourcemap: true,
       globals: {
-        vega: 'vega',
-        'vega-lite': 'vegaLite',
+        '@omni-co/vega': 'vega',
+        '@omni-co/vega-lite': 'vegaLite',
       },
     },
     plugins: [nodeResolve(), commonjs(), json(), typescript(), terser(), bundleSize()],
-    external: ['vega', 'vega-lite'],
+    external: ['@omni-co/vega', '@omni-co/vega-lite'],
   },
 ];
 
